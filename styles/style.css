@@ -503,10 +503,6 @@ footer nav ul {
   width: 55%;
 }
 
-footer nav ul {
-  align-items: flex-end;
-}
-
 .subscribeInput {
   width: 100%;
   display: flex;
@@ -516,12 +512,15 @@ footer nav ul {
 input[type=text] {
   flex: 1;
   font-family: "Barlow", sans-serif;
-  color: rgb(44, 45, 44);
   padding-left: 2rem;
 }
 
 .footerContact li {
   padding-top: 0.25rem;
+}
+
+footer nav ul {
+  align-items: flex-end;
 }
 
 footer p {
@@ -551,9 +550,11 @@ footer p {
   }
   .subscribe h3 {
     text-align: center;
+    padding-bottom: 0.5rem;
   }
   form {
     text-align: center;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -646,5 +647,16 @@ footer p {
   }
   .aboutGallery {
     padding: 3rem 0 1.75rem 0;
+  }
+  input[type=text] {
+    padding-left: 0;
+  }
+  input[type=text]::-moz-placeholder {
+    margin: 0;
+    text-align: center;
+  }
+  input[type=text]::placeholder {
+    margin: 0;
+    text-align: center;
   }
 }

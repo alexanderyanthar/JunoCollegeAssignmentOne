@@ -40,10 +40,6 @@ footer nav ul {
   width: 55%;
 }
 
-footer nav ul {
-  align-items: flex-end;
-}
-  
 .subscribeInput {
     width: 100%;
     display: flex;
@@ -53,12 +49,15 @@ footer nav ul {
 input[type=text] {
     flex: 1;
     font-family: $primaryFont;
-    color: $quaternaryColor;
     padding-left: 2rem;
 }
 
 .footerContact li {
     padding-top: 0.25rem;
+}
+
+footer nav ul {
+  align-items: flex-end;
 }
   
 footer p {
