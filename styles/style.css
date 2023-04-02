@@ -304,7 +304,7 @@ header nav a {
   text-shadow: 5px 5px 5px rgba(14, 17, 14, 0.9);
 }
 header nav .fa-bars {
-  color: rgb(214, 241, 228);
+  color: rgb(255, 255, 255);
   font-size: 2rem;
   display: none;
 }
@@ -348,7 +348,7 @@ h1 {
   margin-bottom: 0.5rem;
 }
 .socialLinks .fa-brands {
-  color: rgb(214, 241, 228);
+  color: rgb(255, 255, 255);
   font-size: 1.25rem;
 }
 
@@ -561,17 +561,17 @@ input[type=text] {
   header {
     height: 75vh;
   }
-  nav ul {
+  header nav ul {
     display: none;
   }
-  nav .fa-bars {
+  header nav .fa-bars {
     display: block;
-  }
-  .fa-brands {
-    display: none;
   }
   h1 {
     font-size: 2rem;
+  }
+  .fa-brands {
+    display: none;
   }
   .aboutGallery {
     flex-wrap: wrap;

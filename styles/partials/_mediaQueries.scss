@@ -37,25 +37,21 @@
 @media (max-width: 768px) {
     header {
         height: 75vh;
-    }
-    
-    nav ul {
-        display: none;
-    }
-        
-    nav .fa-bars {
-        display: block;
-    }
-
-    .fa-brands {
-        display: none;
+        nav ul {
+            display: none;
+        }
+        nav .fa-bars {
+            display: block;
+        }
     }
 
     h1 {
         font-size: 2rem;
     }
 
-   
+    .fa-brands {
+        display: none;
+    }
 
     .aboutGallery {
         flex-wrap: wrap;
