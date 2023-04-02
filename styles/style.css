@@ -491,11 +491,7 @@ footer a {
   padding: 0;
 }
 
-.form {
-  width: 55%;
-}
-
-.form,
+.subscribe,
 .footerContact,
 footer nav ul {
   display: flex;
@@ -503,12 +499,16 @@ footer nav ul {
   justify-content: space-between;
 }
 
+.subscribe {
+  width: 55%;
+}
+
 footer nav ul {
   align-items: flex-end;
 }
 
 .subscribeInput {
-  width: 90%;
+  width: 100%;
   display: flex;
   padding-top: 1rem;
 }
@@ -544,17 +544,16 @@ footer p {
   footer .wrapper {
     flex-wrap: wrap;
   }
-  .form {
+  .subscribe {
     width: 100%;
+    align-items: center;
     padding-bottom: 3rem;
   }
-  .form h3 {
+  .subscribe h3 {
     text-align: center;
   }
-  .subscribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  form {
+    text-align: center;
   }
 }
 @media (max-width: 768px) {
@@ -621,7 +620,7 @@ footer p {
     align-items: center;
   }
   .subscribe {
-    text-align: center;
+    align-items: center;
   }
   .subscribeInput {
     flex-direction: column;

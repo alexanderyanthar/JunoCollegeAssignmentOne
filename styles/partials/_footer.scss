@@ -27,42 +27,42 @@ footer {
     padding: 0;
   }
 }
-
-  .form {
-      width: 55%;
-  }
   
-  .form,
-  .footerContact,
-  footer nav ul {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-  }
+.subscribe,
+.footerContact,
+footer nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-  footer nav ul {
-    align-items: flex-end;
+.subscribe {
+  width: 55%;
+}
+
+footer nav ul {
+  align-items: flex-end;
 }
   
-  .subscribeInput {
-      width: 90%;
-      display: flex;
-      padding-top: 1rem;
-  }
+.subscribeInput {
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+}
   
-  input[type=text] {
-      flex: 1;
-      font-family: $primaryFont;
-      color: $quaternaryColor;
-      padding-left: 2rem;
-  }
+input[type=text] {
+    flex: 1;
+    font-family: $primaryFont;
+    color: $quaternaryColor;
+    padding-left: 2rem;
+}
 
-  .footerContact li {
+.footerContact li {
     padding-top: 0.25rem;
-  }
+}
   
-  footer p {
-      background-color: $quaternaryColor;
-      padding: 1rem 0;
-      text-align: center;
-  }
+footer p {
+    background-color: $quaternaryColor;
+    padding: 1rem 0;
+    text-align: center;
+}
