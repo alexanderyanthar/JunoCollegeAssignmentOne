@@ -32,17 +32,17 @@ footer {
       width: 55%;
   }
   
-  .footerLinks {
-      align-items: flex-end;
-  }
-  
   .form,
   .footerContact,
-  nav .footerLinks {
+  footer nav ul {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
   }
+
+  footer nav ul {
+    align-items: flex-end;
+}
   
   .subscribeInput {
       width: 90%;
@@ -57,11 +57,11 @@ footer {
       padding-left: 2rem;
   }
 
-  .contactInfo li {
+  .footerContact li {
     padding-top: 0.25rem;
   }
   
-  .copyright {
+  footer p {
       background-color: $quaternaryColor;
       padding: 1rem 0;
       text-align: center;
