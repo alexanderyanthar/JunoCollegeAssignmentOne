@@ -1,0 +1,50 @@
+@use "./variables" as *;
+
+//ABOUT STYLING//
+
+.about {
+    background-color: $secondaryColor;
+    padding: 4rem 0;
+
+    h2 {
+        text-align: center;
+        color: $tertiaryColor;  
+    }
+    
+    button {
+        background-color: $tertiaryColor;
+        color: white;
+    }
+}
+
+.aboutGallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+
+    li {
+        width: 31%;
+    }
+}
+
+.aboutPark {
+    display: flex;
+}
+
+.imageContainer {
+    width: 25%;
+}
+
+.textContainer {
+    width: 75%;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: $quaternaryColor;
+
+    p {
+        padding: 1rem 0;
+    }   
+}

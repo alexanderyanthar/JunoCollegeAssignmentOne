@@ -1,0 +1,156 @@
+  //MEDIA QUERIES//
+
+  @media (max-width: 940px) {
+    h1 {
+        font-size: 2.5rem;
+        width: 45%;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .fa-brands {
+        padding-right: 1rem;
+    }
+
+    footer .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .form {
+        width: 100%;
+        padding-bottom: 3rem;
+        
+        h3 {
+        text-align: center;
+        }
+    }
+
+    .subscribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 75vh;
+    }
+    
+    nav ul {
+        display: none;
+    }
+        
+    nav .fa-bars {
+        display: block;
+    }
+
+    .fa-brands {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+   
+
+    .aboutGallery {
+        flex-wrap: wrap;
+        
+        .img1,
+        .img2 {
+            width: 47%;
+        }
+
+        .img3 {
+            width: 100%;
+            padding-top: 3rem;
+        }
+    }
+
+    .imageContainer {
+        display: none;
+    }
+
+    .textContainer {
+        width: 100%;
+        padding: 0;
+    }
+
+    button {
+        align-self: center;
+    }
+
+    .gallery li {
+        width: 100%;
+
+        h2 {
+            align-self: center;
+        }
+    }
+
+    .gallery .box2,
+    .gallery .box3 {
+        height: 40vh;
+    }
+
+    .box2 {
+        order: -1;
+    }
+
+    .galleryContainer {
+        margin: 0 auto;
+    }
+
+    .box1 .galleryContainer {
+        padding-right: 0;
+    }
+
+    .box4 .galleryContainer {
+        padding-left: 0;
+    }
+
+    .extraLinks .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe {
+        text-align: center;
+    }
+
+    .subscribeInput {
+        flex-direction: column;
+    }
+
+    input {
+        padding: 0.5rem 0;
+        margin-bottom: 0.5rem;
+    }
+}
+    
+@media (max-width: 480px) {
+    header {
+        height: 70vh;
+        background-position: left 35% bottom 0%;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    .about,
+    .galleryContainer,
+    .extraLinks,
+    footer .wrapper {
+        padding: 3rem 0;
+    }
+
+    .aboutGallery {
+        padding: 3rem 0 1.75rem 0;
+    }
+}
+

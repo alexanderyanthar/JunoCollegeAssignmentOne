@@ -1,0 +1,68 @@
+@use "./variables" as *;
+
+//FOOTER STYLING//
+
+footer {
+    background-color: $primaryColor;
+  
+  .wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 6rem 0;
+    }
+  
+  h3,
+  a {
+      font-weight: 300;
+      font-size: 1.5rem;
+    }
+
+  button {
+    background-color: $quaternaryColor;
+    color: white;
+    padding: 0.75rem 1rem;
+  }
+  nav,
+  a {
+    padding: 0;
+  }
+}
+
+  .form {
+      width: 55%;
+  }
+  
+  .footerLinks {
+      align-items: flex-end;
+  }
+  
+  .form,
+  .footerContact,
+  nav .footerLinks {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .subscribeInput {
+      width: 90%;
+      display: flex;
+      padding-top: 1rem;
+  }
+  
+  input[type=text] {
+      flex: 1;
+      font-family: $primaryFont;
+      color: $quaternaryColor;
+      padding-left: 2rem;
+  }
+
+  .contactInfo li {
+    padding-top: 0.25rem;
+  }
+  
+  .copyright {
+      background-color: $quaternaryColor;
+      padding: 1rem 0;
+      text-align: center;
+  }

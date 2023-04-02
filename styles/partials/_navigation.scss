@@ -1,0 +1,35 @@
+@use "./variables" as *;
+//NAVIGATION STYLING//
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+
+    ul {
+        display: flex;
+        font-weight: 600;
+        line-height: 1.5rem;
+    }
+
+    a {
+        padding: 1rem;
+        text-shadow: 5px 5px 5px rgba(14, 17, 14, 0.9);
+    }
+
+    .fa-bars {
+        color: $secondaryColor;
+        font-size: 2rem;
+        display: none;
+    }
+}
+
+span {
+    display: block;
+}
+
+.logo {
+    line-height: 1rem;
+}
+

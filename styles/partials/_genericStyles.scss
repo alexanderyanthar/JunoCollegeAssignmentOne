@@ -1,0 +1,13 @@
+@use "./variables" as *;
+
+//GENERIC CODE//
+
+html {
+    font-family: $primaryFont;
+    font-size: 125%;
+    color: white;
+}
+
+body {
+    margin: 0;
+}

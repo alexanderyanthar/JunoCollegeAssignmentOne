@@ -1,0 +1,55 @@
+@use "./variables" as *;
+
+//GALLERY STYLING//
+
+.gallery {
+    background-color: $primaryColor;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    li {
+        width: 50%;
+    }
+}
+
+.box2 {
+    background-image: url(../assets/bobbyAndBellaImg.png);
+}
+
+.box3 {
+    background-image: url(../assets/marcoImg.png);
+}
+
+.box2,
+.box3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.galleryContainer {
+    max-width: 600px;
+    width: 90%;
+    padding: 5.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    p {
+        padding: 1.5rem 0;
+    }
+}
+
+.box1 .galleryContainer {
+    margin-left: auto;
+    padding-right: 4.5rem;
+}
+
+.box4 .galleryContainer {
+    margin-right: auto;
+    padding-left: 4.5rem;
+}
