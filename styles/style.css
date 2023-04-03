@@ -312,6 +312,7 @@ header nav .fa-bars {
   color: rgb(255, 255, 255);
   font-size: 2rem;
   display: none;
+  cursor: pointer;
 }
 
 header {
