@@ -282,6 +282,7 @@ button {
   background-color: white;
   color: rgb(17, 101, 0);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 img {
