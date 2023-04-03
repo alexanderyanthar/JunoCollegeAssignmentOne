@@ -300,6 +300,10 @@ header nav ul {
   line-height: 1.5rem;
 }
 header nav a {
+  padding: 0;
+  line-height: 1rem;
+}
+header nav ul a {
   padding: 1rem;
   text-shadow: 5px 5px 5px rgba(14, 17, 14, 0.9);
 }
@@ -307,14 +311,6 @@ header nav .fa-bars {
   color: rgb(255, 255, 255);
   font-size: 2rem;
   display: none;
-}
-
-span {
-  display: block;
-}
-
-.logo {
-  line-height: 1rem;
 }
 
 header {
