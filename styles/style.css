@@ -455,7 +455,6 @@ h1 {
   font-weight: 400;
 }
 .extraLinks li {
-  width: 33.3333333333%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
