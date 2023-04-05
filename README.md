@@ -4,7 +4,7 @@
 
 The objective of this assignment is to convert an assigned PSD* into a well-tested, accessible, responsive and pixel-perfect landing page for desktop and mobile. This assignment assess HTML and SCSS skills along with responsive design abilities. 
 
-*The design, style guide and assets are provided by Juno College, formely known as Hacker You. 
+*The design, style guide and assets are provided by Juno College, formely known as HackerYou. 
 
 ## The result:
 
