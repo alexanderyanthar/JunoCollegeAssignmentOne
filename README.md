@@ -16,7 +16,7 @@ The converted PSD is responsive all the way down to 420px. Multiple breakpoints 
 
 # Mobile (480px):
 
-![](./yourImages/pandaSantuaryMobile.jpg)
+![](./yourImages/pandaSanctuaryMobile.jpg)
 
 
 
