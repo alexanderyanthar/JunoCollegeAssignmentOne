@@ -10,11 +10,11 @@ The objective of this assignment is to convert an assigned PSD* into a well-test
 
 The converted PSD is responsive all the way down to 420px. Multiple breakpoints are used to ensure compatibility with other devices. Shown below are the desktop and mobile (480px) views of the completed assignment. 
 
-# Desktop:
+### Desktop:
 
 ![](./yourImages/pandaSantuaryDesktop.jpg)
 
-# Mobile (480px):
+### Mobile (480px):
 
 ![](./yourImages/pandaSanctuaryMobile.jpg)
 
